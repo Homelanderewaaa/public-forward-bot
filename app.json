@@ -8,32 +8,34 @@
     "forward",
     "bot"
   ],
-  "repository": "https://github.com/Greymattersbot/public-forward-bot",
+  "repository": "https://github.com/Homelanderewaaa/Telegramforward",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org or @UseTGXBot",
-      "value": ""
+      "value": "26311402"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org or @UseTGXBot",
-      "value": ""
+      "value": "012450e57d2bc98d0693c6982d01a2d7"
     },
     "BOT_TOKEN": {
       "description": "Your bot token from @BotFather",
-      "value": ""
+      "value": "5868897210:AAGLyP_LOHuX69N6SXYHG0QSgu5Ii7LZe5g
+"
     },
     "BOT_USERNAME": {
       "description": "Username of your Bot without @ , Only give if you want auto starts forwarding when heroku restarts",
-      "value": "",
+      "value": "Autoforwardas_bot",
       "required": false
     },
     "TO_CHANNEL": {
       "description": "Enter Your channel Id must add Eg:- -100xxxxxxxxx",
-      "value": ""
+      "value": "-1001852600221
+"
     },
     "DATABASE_URI": {
       "description": "Get this from cloud.mongodb.com",
-      "value": ""
+      "value": "mongodb+srv://Hacker:BREatMXQAWSX8Res@cluster0.0vrauzh.mongodb.net/?retryWrites=true&w=majority"
     },
     "DATABASE_NAME": {
       "description": "Database cluster name",
@@ -46,7 +48,7 @@
     },
     "OWNER_ID": {
       "description": "Enter Your Telegram id",
-      "value": ""
+      "value": "5832887847"
     },
     "SESSION": {
       "description": "Pyrogram string Session https://t.me/string_session_generator_658_bot",
